@@ -1,0 +1,29 @@
+package com.mycompany.q01;
+public class Item
+{
+    private int location;
+    private String description;
+    
+    public Item(int location,String desc)
+    {
+        this.location=location;
+        this.description=desc;
+    }
+    public void getter()
+    {
+        System.out.println("Location: "+location);
+        System.out.println("Description: "+description);
+    }
+}
+
+package com.mycompany.q01;
+public class q01 
+{
+
+    public static void main(String[] args) 
+    {
+        Item I1=new Item(1234,"Colombo");
+        I1.getter();
+        
+    }
+}
